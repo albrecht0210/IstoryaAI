@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/story_content"
+        android:icon="@drawable/icons_story"
+        android:title="@string/menu_content" />
+    <item
+        android:id="@+id/story_quiz"
+        android:title="@string/menu_quiz"
+        android:icon="@drawable/icons_quiz" />
+</menu>

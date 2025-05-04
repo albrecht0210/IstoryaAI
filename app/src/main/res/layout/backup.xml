@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/story_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/storyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus quis lectus tempor elementum. Pellentesque sed est ac nunc bibendum lobortis vel ut mi. Pellentesque id tincidunt magna. Mauris congue, arcu quis tempus vehicula, lacus odio cursus odio, sit amet varius odio elit ut justo. Nam convallis arcu molestie dolor faucibus, vel sollicitudin lorem aliquam. Nam ut hendrerit tortor. Morbi risus velit, aliquet non erat nec, gravida lacinia dolor. Nam nec ligula auctor, lacinia enim vitae, aliquam purus.  Mauris efficitur, risus ut bibendum rutrum, massa neque viverra orci, blandit faucibus odio ex ut tellus. Sed erat enim, tincidunt quis bibendum sed, euismod tristique lectus. Curabitur ullamcorper enim mi, vel ultrices lectus tincidunt a. Cras placerat libero felis, sit amet pharetra dolor pretium et. Curabitur in ultrices orci, et pretium leo. Duis nulla orci, viverra quis diam et, commodo eleifend tellus. Praesent elementum dui a massa malesuada finibus. Quisque et tellus gravida, mattis nisi eget, pulvinar lectus. Pellentesque vel nunc odio. Nulla vel interdum magna, volutpat maximus tortor. Nulla sodales egestas tellus, et fringilla leo pellentesque in. Maecenas mollis, justo a molestie iaculis, quam leo ultrices mauris, in sodales justo urna sit amet erat. Proin semper aliquam dui ac sagittis. Donec tempus nulla id accumsan tempus. Nullam euismod aliquam lectus id faucibus.  Donec a est in justo venenatis molestie. Nulla ac sodales lorem, at facilisis quam. Maecenas eu justo auctor, vulputate erat sit amet, dignissim risus. Donec placerat libero a nulla congue rutrum. Sed pretium libero ante, id tristique ante dapibus quis. Integer dictum ullamcorper massa id tincidunt. Aenean a augue elit. Sed ultrices arcu sed felis luctus maximus. Etiam non ipsum ipsum. Sed mi ante, aliquam sed congue ac, cursus quis ipsum. Curabitur at leo lacus. Cras eu felis nulla. In hac habitasse platea dictumst. Integer ac est sed lorem mollis dignissim sed eget ligula. In commodo vulputate elit, quis scelerisque neque tempus vel. Donec in justo tincidunt mauris mattis elementum eget id mauris." />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/peach"
+                android:text="@string/start_quiz_btn"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
